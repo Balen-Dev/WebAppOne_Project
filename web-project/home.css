@@ -1,0 +1,46 @@
+/* styles.css */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.hero-image {
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+
+#map {
+  border-radius: 15px;
+}
+
+.card {
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img-top {
+  border-radius: 15px 15px 0 0;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+#spotName,
+#spotDescription {
+  border-radius: 10px;
+}
+
+#spotDescription {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #f8f9fa;
+  border-top: 1px solid #e9ecef;
+  padding: 15px 0;
+}
