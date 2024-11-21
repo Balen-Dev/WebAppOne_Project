@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
+    <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">PicniKurd</a>
@@ -43,7 +44,87 @@
         </div>
       </div>
     </nav>
-
+    <!-- Navbar End -->
+    <!-- Hero Start -->
+    <div class="row p-4 text-center">
+      <div
+        class="card text-white bg-secondary mb-3 col-8 col-md-8 py-2"
+        style="width: 100%"
+      >
+        <div class="card-body">
+          <h1 class="card-title">Welcome to PicniKurd</h1>
+          <p class="card-text">
+            Discover the Hidden Picnic Gems of Kurdistan Your Ultimate Guide to
+            Nature's Beauty!
+          </p>
+          <a
+            href="./spots.html"
+            target="_blank"
+            class="btn btn-primary"
+            id="heroBtn"
+            >View Spots</a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Hero End -->
+    <!-- Mission & Map Start -->
+    <div class="container">
+      <div
+        class="row text-center align-items-center"
+        style="justify-content: space-around !important"
+      >
+        <div
+          class="col-6 col-md-6 col-lg-6 px-2 d-flex align-items-center justify-content-center"
+        >
+          <div
+            class="card text-white bg-secondary mb-3"
+            style="width: 100%; height: 25rem"
+          >
+            <div class="card-header"><h4>Our Mission</h4></div>
+            <div class="card-body" id="missionText">
+              <p class="card-text">
+                At PicniKurd, our mission is to inspire unforgettable outdoor
+                adventures and guide you to the most scenic and peaceful picnic
+                spots across Kurdistan. We are passionate about helping people
+                connect with nature, offering a wide variety of beautiful
+                locations where families, friends, and solo adventurers can
+                create lasting memories. Whether you're seeking a peaceful
+                retreat to recharge, a family gathering in the heart of nature,
+                or an exciting new adventure off the beaten path, PicniKurd is
+                dedicated to providing you with the perfect spot. Through our
+                platform, we aim to celebrate the rich beauty and culture of
+                Kurdistan, fostering a deeper connection to our homeland while
+                promoting a healthy, active lifestyle. Let us guide you to your
+                next memorable journey, where nature’s tranquility meets
+                Kurdistan’s stunning landscapes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-6 col-md-6 col-lg-6 d-flex align-items-center justify-content-center"
+        >
+          <div
+            class="card text-white bg-secondary mb-3"
+            style="width: 100%; height: 25rem"
+          >
+            <div class="card-header"><h4>Our Spots</h4></div>
+            <div class="card-body">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51074.202151641766!2d42.82277584075926!3d36.86312426529524!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40088d0034ca7881%3A0x5fc1a376d2d83b62!2sAmerican%20University%20of%20Kurdistan%20(AUK)!5e0!3m2!1sen!2siq!4v1732189458306!5m2!1sen!2siq"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                id="map"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Mission & Map End -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
