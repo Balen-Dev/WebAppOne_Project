@@ -36,7 +36,7 @@ body {
   background: hsla(88, 38%, 15%, 1);
   background: linear-gradient(
     135deg,
-    hsla(88, 38%, 15%, 1) 0%,
+    rgb(39, 53, 24) 0%,
     hsla(74, 32%, 32%, 1) 100%
   );
 }
